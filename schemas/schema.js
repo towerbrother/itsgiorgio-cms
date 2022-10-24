@@ -5,6 +5,15 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 
 // We import object and document schemas
+import { banner } from './banner';
+import { contactForm } from './contactForm';
+import { footer } from './footer';
+import { header } from './header';
+import { keywords } from './keywords';
+import { legalFooter } from './legalFooter';
+import { stage } from './stage';
+import { htmlText } from './htmlText';
+import { timeline } from './timeline';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -15,5 +24,14 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
+    banner,
+    contactForm,
+    footer,
+    header,
+    keywords,
+    legalFooter,
+    stage,
+    htmlText,
+    timeline,
   ]),
 });
