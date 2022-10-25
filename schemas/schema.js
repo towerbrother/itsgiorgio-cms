@@ -10,7 +10,6 @@ import { contactForm } from './contactForm';
 import { footer } from './footer';
 import { header } from './header';
 import { keywords } from './keywords';
-import { legalFooter } from './legalFooter';
 import { stage } from './stage';
 import { htmlText } from './htmlText';
 import { timeline } from './timeline';
@@ -29,7 +28,6 @@ export default createSchema({
     footer,
     header,
     keywords,
-    legalFooter,
     stage,
     htmlText,
     timeline,
